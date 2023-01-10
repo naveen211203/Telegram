@@ -10,12 +10,13 @@ class Config(object):
     log = True
     APP_ID = getenv("API_ID", "6435225")
     API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-    TOKEN = getenv("TOKEN", "")
-    OWNER_ID = getenv("OWNER_ID", "")
+    TOKEN = getenv("TOKEN", "5740026879:AAH89VMFTp7Or6Denu0aP_eahVkPJZPBe6I")
+    OWNER_ID = getenv("OWNER_ID", "674030701")
     ASSISTANT_ID = getenv("ASSISTANT_ID", "")
     STRING_SESSION = getenv("STRING_SESSION", "") #telethon
     OWNER_USERNAME = getenv("OWNER_USERNAME", "")
-    DB_URI = getenv("DATABASE_URL", "")
+    DB_URI = getenv("DATABASE_URL", "mongodb+srv://YB:YB@cluster0.w0d5u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+")
     DB_URI = DB_URI.replace("postgres", "postgresql")
     MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001509525202")
     GBAN_LOGS = getenv("GBAN_LOGS", "-1001509525202")
